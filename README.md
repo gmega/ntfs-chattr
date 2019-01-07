@@ -3,10 +3,9 @@
 manipulate NTFS attributes from the command line using GNU/Linux
 
 ## Overview
-`ntfs-chattr` is a simple command-line utility which allows you to manipulate NTFS attributes from the command line. In 
-particular, you can add/remove all of the supported 
-[extended NTFS attributes](https://www.tuxera.com/community/ntfs-3g-advanced/extended-attributes/#ntfsattributes) such
-as `system`, `hidden`, or `readonly`.
+`ntfs-chattr` is a simple command-line utility that allows you to manipulate NTFS attributes from the command line. All 
+of the most common [extended NTFS attributes](https://www.tuxera.com/community/ntfs-3g-advanced/extended-attributes/#ntfsattributes) (e.g. 
+as `system`, `hidden`, or `readonly`) are supported.
 
 `ntfs-chattr` is based on [pyxattr](https://pyxattr.k1024.org/). 
 
@@ -15,7 +14,7 @@ as `system`, `hidden`, or `readonly`.
 The simplest way is to just install the master tarball via `pip`:
 
 ```{bash}
-pip install https://github.com/django-extensions/django-extensions/zipball/master
+pip install https://github.com/gmega/ntfs-chattr/zipball/master
 ```
 
 ## Usage Examples
